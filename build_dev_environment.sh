@@ -62,16 +62,17 @@ go get -v github.com/go-swagger/go-swagger/cmd/swagger
 go get -d github.com/lyft/protoc-gen-validate
 
 go get -u -f github.com/pkg/errors
-#go get -u -f
+go get -u -f github.com/go-openapi/runtime
+go get -u -f golang.org/x/net/context/ctxhttp
 
 #==============================================================================
 # Now, go get gloo and glooctl (as make expects it to be in adjacent directory
 #==============================================================================
 pushd $HOME/go
 mkdir -p $HOME/go/src/github.com/solo-io
-git clone  --recurse-submodules -j8 https://github.com/solo-io/gloo $HOME/go/src/github.com/solo-io
+git clone  --recurse-submodules -j8 https://github.com/solo-io/gloo $HOME/go/src/github.com/solo-io/gloo
 #git clone  --recurse-submodules -j8 https://github.com/solo-io/glooctl
-pushd gloo
+pushd $HOME/go/src/github.com/solo-io/gloo
 set +x
 echo "+-----------------------------------------------------------------------"
 echo "| GOPATH : $GOPATH"
