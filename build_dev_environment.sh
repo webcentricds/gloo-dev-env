@@ -71,7 +71,7 @@ go get -u -f golang.org/x/net/context/ctxhttp
 pushd $HOME/go
 mkdir -p $HOME/go/src/github.com/solo-io
 git clone  --recurse-submodules -j8 https://github.com/solo-io/gloo $HOME/go/src/github.com/solo-io/gloo
-git clone  --recurse-submodules -j8 https://github.com/solo-io/glooctl
+git clone  --recurse-submodules -j8 https://github.com/solo-io/glooctl $HOME/go/src/github.com/solo-io/glooctl
 pushd $HOME/go/src/github.com/solo-io/gloo
 set +x
 echo "+-----------------------------------------------------------------------"
