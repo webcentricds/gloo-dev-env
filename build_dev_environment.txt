@@ -1,11 +1,11 @@
 +++ mktemp -d
-++ TEMP_DIR=/tmp/tmp.L9VvZxn8ER
-++ pushd /tmp/tmp.L9VvZxn8ER
-/tmp/tmp.L9VvZxn8ER ~/gitDevelopment/gloo-dev-env
+++ TEMP_DIR=/tmp/tmp.vRb6OujP17
+++ pushd /tmp/tmp.vRb6OujP17
+/tmp/tmp.vRb6OujP17 ~/gitDevelopment/gloo-dev-env
 ++ curl -O https://dl.google.com/go/go1.11.linux-amd64.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  3  121M    3 4639k    0     0  1368k      0  0:01:30  0:00:03  0:01:27 1368k 11  121M   11 14.3M    0     0  3336k      0  0:00:37  0:00:04  0:00:33 3335k 20  121M   20 24.3M    0     0  4607k      0  0:00:26  0:00:05  0:00:21 5102k 27  121M   27 33.6M    0     0  5379k      0  0:00:23  0:00:06  0:00:17 7066k 35  121M   35 43.4M    0     0  6009k      0  0:00:20  0:00:07  0:00:13 9132k 43  121M   43 52.4M    0     0  6412k      0  0:00:19  0:00:08  0:00:11 9837k 50  121M   50 61.7M    0     0  6683k      0  0:00:18  0:00:09  0:00:09 9596k 57  121M   57 69.4M    0     0  6745k      0  0:00:18  0:00:10  0:00:08 9009k 59  121M   59 72.4M    0     0  6461k      0  0:00:19  0:00:11  0:00:08 7822k 62  121M   62 75.2M    0     0  6159k      0  0:00:20  0:00:12  0:00:08 6378k 62  121M   62 76.0M    0     0  5818k      0  0:00:21  0:00:13  0:00:08 4821k 64  121M   64 78.7M    0     0  5603k      0  0:00:22  0:00:14  0:00:08 3529k 71  121M   71 86.5M    0     0  5759k      0  0:00:21  0:00:15  0:00:06 3618k 78  121M   78 95.0M    0     0  5938k      0  0:00:20  0:00:16  0:00:04 4711k 86  121M   86  105M    0     0  6192k      0  0:00:20  0:00:17  0:00:03 6275k 92  121M   92  112M    0     0  6248k      0  0:00:19  0:00:18  0:00:01 7399k 99  121M   99  120M    0     0  6355k      0  0:00:19  0:00:19 --:--:-- 8521k100  121M  100  121M    0     0  6351k      0  0:00:19  0:00:19 --:--:-- 8542k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  121M    0  287k    0     0   423k      0  0:04:52 --:--:--  0:04:52  423k  6  121M    6 7775k    0     0  4536k      0  0:00:27  0:00:01  0:00:26 4534k  9  121M    9 10.9M    0     0  4170k      0  0:00:29  0:00:02  0:00:27 4169k 10  121M   10 12.8M    0     0  3564k      0  0:00:34  0:00:03  0:00:31 3564k 11  121M   11 13.6M    0     0  2969k      0  0:00:41  0:00:04  0:00:37 2969k 12  121M   12 15.7M    0     0  2840k      0  0:00:43  0:00:05  0:00:38 3168k 18  121M   18 22.4M    0     0  3445k      0  0:00:36  0:00:06  0:00:30 3069k 27  121M   27 33.2M    0     0  4432k      0  0:00:28  0:00:07  0:00:21 4572k 35  121M   35 43.4M    0     0  5129k      0  0:00:24  0:00:08  0:00:16 6281k 44  121M   44 54.2M    0     0  5735k      0  0:00:21  0:00:09  0:00:12 8339k 53  121M   53 64.7M    0     0  6213k      0  0:00:19  0:00:10  0:00:09  9.8M 62  121M   62 75.2M    0     0  6602k      0  0:00:18  0:00:11  0:00:07 10.5M 70  121M   70 85.4M    0     0  6897k      0  0:00:18  0:00:12  0:00:06 10.4M 79  121M   79 96.2M    0     0  7203k      0  0:00:17  0:00:13  0:00:04 10.5M 88  121M   88  107M    0     0  7473k      0  0:00:16  0:00:14  0:00:02 10.5M 97  121M   97  117M    0     0  7693k      0  0:00:16  0:00:15  0:00:01 10.6M100  121M  100  121M    0     0  7745k      0  0:00:16  0:00:16 --:--:-- 10.5M
 +++ sed 's/ .*//'
 +++ sha256sum go1.11.linux-amd64.tar.gz
 ++ CHKSUM=b3fcf280ff86558e0559e185b601c9eade0fd24c900b4c63cd14d1d38613e499
@@ -9892,9 +9892,9 @@ go/test/zerodivide.go
 ++ curl -OL https://github.com/google/protobuf/releases/download/v3.3.0/protoc-3.3.0-linux-x86_64.zip
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   164    0   164    0     0    645      0 --:--:-- --:--:-- --:--:--   645
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   619    0   619    0     0    830      0 --:--:-- --:--:-- --:--:--  604k
-  0 1320k    0  8552    0     0   6583      0  0:03:25  0:00:01  0:03:24  6583100 1320k  100 1320k    0     0   807k      0  0:00:01  0:00:01 --:--:-- 3917k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   164    0   164    0     0    488      0 --:--:-- --:--:-- --:--:--   488
+100   619    0   619    0     0   1216      0 --:--:-- --:--:-- --:--:--  1216
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0 89 1320k   89 1188k    0     0   429k      0  0:00:03  0:00:02  0:00:01  593k100 1320k  100 1320k    0     0   476k      0  0:00:02  0:00:02 --:--:--  658k
 ++ unzip protoc-3.3.0-linux-x86_64.zip -d protoc3
 Archive:  protoc-3.3.0-linux-x86_64.zip
    creating: protoc3/include/
@@ -9941,12 +9941,16 @@ Cloning into '/home/denglish/go/src/k8s.io/code-generator'...
 Cloning into '/home/denglish/go/src/k8s.io/apimachinery'...
 ++ go get -v github.com/go-swagger/go-swagger/cmd/swagger
 github.com/go-swagger/go-swagger (download)
+github.com/go-swagger/go-swagger/generator
+github.com/go-swagger/go-swagger/cmd/swagger/commands/generate
+github.com/go-swagger/go-swagger/cmd/swagger/commands
+github.com/go-swagger/go-swagger/cmd/swagger
 ++ go get -d github.com/lyft/protoc-gen-validate
 ++ go get -u -f github.com/pkg/errors
 ++ go get -u -f github.com/go-openapi/runtime
 ++ go get -u -f golang.org/x/net/context/ctxhttp
 ++ pushd /home/denglish/go
-~/go /tmp/tmp.L9VvZxn8ER ~/gitDevelopment/gloo-dev-env
+~/go /tmp/tmp.vRb6OujP17 ~/gitDevelopment/gloo-dev-env
 ++ mkdir -p /home/denglish/go/src/github.com/solo-io
 ++ git clone --recurse-submodules -j8 https://github.com/solo-io/gloo /home/denglish/go/src/github.com/solo-io/gloo
 Cloning into '/home/denglish/go/src/github.com/solo-io/gloo'...
@@ -9959,13 +9963,13 @@ Submodule 'pkg/plugins/connect/envoy' (https://github.com/solo-io/envoy-consul-c
 Submodule 'pkg/plugins/google/envoy' (https://github.com/solo-io/envoy-google-function) registered for path 'pkg/plugins/google/envoy'
 Submodule 'pkg/plugins/nats/envoy' (https://github.com/solo-io/envoy-nats-streaming) registered for path 'pkg/plugins/nats/envoy'
 Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/build-envoy/envoy'...
-Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/connect/envoy'...
-Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/azure/envoy'...
 Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/google/envoy'...
-Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/common/transformation/envoy'...
+Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/azure/envoy'...
 Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/build-envoy/envoy-common'...
-Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/nats/envoy'...
+Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/connect/envoy'...
+Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/common/transformation/envoy'...
 Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/aws/envoy'...
+Cloning into '/home/denglish/go/src/github.com/solo-io/gloo/pkg/plugins/nats/envoy'...
 Submodule path 'build-envoy/envoy': checked out 'b32eabfc141760ec14622a4a2a2f0ab0a741cd6c'
 Submodule path 'build-envoy/envoy-common': checked out '8787fba7b8b304f086813bf9c31cae0ccba991c3'
 Submodule path 'pkg/plugins/aws/envoy': checked out 'b995515499fd7501a0573b300253bfedfd68130c'
@@ -9976,180 +9980,214 @@ Submodule path 'pkg/plugins/google/envoy': checked out '3746775e98984d207ecfeba7
 Submodule path 'pkg/plugins/nats/envoy': checked out '55ca3974bab7617569e5bcce5d9d7aa77b33992d'
 ++ git clone --recurse-submodules -j8 https://github.com/solo-io/glooctl /home/denglish/go/src/github.com/solo-io/glooctl
 Cloning into '/home/denglish/go/src/github.com/solo-io/glooctl'...
-Checking out files:  77% (13254/17190)   Checking out files:  78% (13409/17190)   Checking out files:  79% (13581/17190)   Checking out files:  80% (13752/17190)   Checking out files:  81% (13924/17190)   Checking out files:  82% (14096/17190)   Checking out files:  83% (14268/17190)   Checking out files:  84% (14440/17190)   Checking out files:  85% (14612/17190)   Checking out files:  86% (14784/17190)   Checking out files:  87% (14956/17190)   Checking out files:  88% (15128/17190)   Checking out files:  89% (15300/17190)   Checking out files:  90% (15471/17190)   Checking out files:  91% (15643/17190)   Checking out files:  92% (15815/17190)   Checking out files:  93% (15987/17190)   Checking out files:  94% (16159/17190)   Checking out files:  95% (16331/17190)   Checking out files:  96% (16503/17190)   Checking out files:  97% (16675/17190)   Checking out files:  98% (16847/17190)   Checking out files:  99% (17019/17190)   Checking out files: 100% (17190/17190)   Checking out files: 100% (17190/17190), done.
+Checking out files:  70% (12166/17190)   Checking out files:  71% (12205/17190)   Checking out files:  72% (12377/17190)   Checking out files:  73% (12549/17190)   Checking out files:  74% (12721/17190)   Checking out files:  75% (12893/17190)   Checking out files:  76% (13065/17190)   Checking out files:  77% (13237/17190)   Checking out files:  78% (13409/17190)   Checking out files:  79% (13581/17190)   Checking out files:  80% (13752/17190)   Checking out files:  81% (13924/17190)   Checking out files:  82% (14096/17190)   Checking out files:  83% (14268/17190)   Checking out files:  84% (14440/17190)   Checking out files:  85% (14612/17190)   Checking out files:  86% (14784/17190)   Checking out files:  87% (14956/17190)   Checking out files:  88% (15128/17190)   Checking out files:  89% (15300/17190)   Checking out files:  90% (15471/17190)   Checking out files:  91% (15643/17190)   Checking out files:  92% (15815/17190)   Checking out files:  93% (15987/17190)   Checking out files:  94% (16159/17190)   Checking out files:  95% (16331/17190)   Checking out files:  96% (16503/17190)   Checking out files:  97% (16675/17190)   Checking out files:  98% (16847/17190)   Checking out files:  99% (17019/17190)   Checking out files:  99% (17147/17190)   Checking out files: 100% (17190/17190)   Checking out files: 100% (17190/17190), done.
 ++ pushd /home/denglish/go/src/github.com/solo-io/gloo
-~/go/src/github.com/solo-io/gloo ~/go /tmp/tmp.L9VvZxn8ER ~/gitDevelopment/gloo-dev-env
+~/go/src/github.com/solo-io/gloo ~/go /tmp/tmp.vRb6OujP17 ~/gitDevelopment/gloo-dev-env
 ++ set +x
 +-----------------------------------------------------------------------
 | GOPATH : /home/denglish/go:/usr/local/go
 +-----------------------------------------------------------------------
-++ make localgloo
-mkdir -p /home/denglish/go/src/github.com/solo-io/gloo/_output
-go generate ./pkg/...
-/usr/local/go/src/github.com/solo-io/gloo/build-envoy/envoy-common/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-/home/denglish/go:/usr/local/go/src/github.com/solo-io/gloo/build-envoy/envoy-common/functional_base.proto: No such file or directory
-pkg/control-plane/translator/route_init_plugin.go:19: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-route_extensions.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/coreplugins/routing/plugin.go:16: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-upstream_spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/coreplugins/static/plugin.go:20: running "protoc": exit status 1
-2018/09/20 15:32:50 validating spec /home/denglish/go/src/github.com/solo-io/gloo/pkg/function-discovery/updater/projectfn/imported/swagger.yml
-2018/09/20 15:32:51 preprocessing spec with option:  minimal flattening
-2018/09/20 15:32:51 building a plan for generation
-2018/09/20 15:32:51 planning definitions
-2018/09/20 15:32:51 planning operations
-2018/09/20 15:32:51 grouping operations into packages
-2018/09/20 15:32:51 planning meta data and facades
-2018/09/20 15:32:51 rendering 1 templates for model App
-2018/09/20 15:32:51 name field App
-2018/09/20 15:32:51 package field models
-2018/09/20 15:32:51 creating generated file "app.go" in "models" as definition
-2018/09/20 15:32:51 executed template asset:model
-2018/09/20 15:32:51 rendering 1 templates for model AppWrapper
-2018/09/20 15:32:51 name field AppWrapper
-2018/09/20 15:32:51 package field models
-2018/09/20 15:32:51 creating generated file "app_wrapper.go" in "models" as definition
-2018/09/20 15:32:51 executed template asset:model
-2018/09/20 15:32:51 rendering 1 templates for model AppsWrapper
-2018/09/20 15:32:51 name field AppsWrapper
-2018/09/20 15:32:51 package field models
-2018/09/20 15:32:51 creating generated file "apps_wrapper.go" in "models" as definition
-2018/09/20 15:32:51 executed template asset:model
-2018/09/20 15:32:51 rendering 1 templates for model Error
-2018/09/20 15:32:51 name field Error
-2018/09/20 15:32:51 package field models
-2018/09/20 15:32:51 creating generated file "error.go" in "models" as definition
-2018/09/20 15:32:51 executed template asset:model
-2018/09/20 15:32:51 rendering 1 templates for model ErrorBody
-2018/09/20 15:32:51 name field ErrorBody
-2018/09/20 15:32:51 package field models
-2018/09/20 15:32:51 creating generated file "error_body.go" in "models" as definition
-2018/09/20 15:32:51 executed template asset:model
-2018/09/20 15:32:51 rendering 1 templates for model Route
-2018/09/20 15:32:51 name field Route
-2018/09/20 15:32:51 package field models
-2018/09/20 15:32:51 creating generated file "route.go" in "models" as definition
-2018/09/20 15:32:51 executed template asset:model
-2018/09/20 15:32:51 rendering 1 templates for model RouteWrapper
-2018/09/20 15:32:51 name field RouteWrapper
-2018/09/20 15:32:51 package field models
-2018/09/20 15:32:51 creating generated file "route_wrapper.go" in "models" as definition
-2018/09/20 15:32:51 executed template asset:model
-2018/09/20 15:32:51 rendering 1 templates for model RoutesWrapper
-2018/09/20 15:32:51 name field RoutesWrapper
-2018/09/20 15:32:51 package field models
-2018/09/20 15:32:51 creating generated file "routes_wrapper.go" in "models" as definition
-2018/09/20 15:32:51 executed template asset:model
-2018/09/20 15:32:51 rendering 2 templates for operation 
-2018/09/20 15:32:51 name field GetApps
-2018/09/20 15:32:51 package field apps
-2018/09/20 15:32:51 creating generated file "get_apps_parameters.go" in "client/apps" as parameters
-2018/09/20 15:32:52 executed template asset:clientParameter
-2018/09/20 15:32:52 name field GetApps
-2018/09/20 15:32:52 package field apps
-2018/09/20 15:32:52 creating generated file "get_apps_responses.go" in "client/apps" as responses
-2018/09/20 15:32:52 executed template asset:clientResponse
-2018/09/20 15:32:52 rendering 1 templates for operation group 
-2018/09/20 15:32:52 name field apps
-2018/09/20 15:32:52 creating generated file "apps_client.go" in "client/apps" as client
-2018/09/20 15:32:52 executed template asset:clientClient
-2018/09/20 15:32:52 rendering 2 templates for operation 
-2018/09/20 15:32:52 name field GetAppsAppRoutes
-2018/09/20 15:32:52 package field routes
-2018/09/20 15:32:52 creating generated file "get_apps_app_routes_parameters.go" in "client/routes" as parameters
-2018/09/20 15:32:52 executed template asset:clientParameter
-2018/09/20 15:32:52 name field GetAppsAppRoutes
-2018/09/20 15:32:52 package field routes
-2018/09/20 15:32:52 creating generated file "get_apps_app_routes_responses.go" in "client/routes" as responses
-2018/09/20 15:32:52 executed template asset:clientResponse
-2018/09/20 15:32:52 rendering 1 templates for operation group 
-2018/09/20 15:32:52 name field routes
-2018/09/20 15:32:52 creating generated file "routes_client.go" in "client/routes" as client
-2018/09/20 15:32:52 executed template asset:clientClient
-2018/09/20 15:32:52 rendering 1 templates for application Fn
-2018/09/20 15:32:52 name field Fn
-2018/09/20 15:32:52 package field client
-2018/09/20 15:32:52 creating generated file "fn_client.go" in "client" as facade
-2018/09/20 15:32:52 executed template asset:clientFacade
-2018/09/20 15:32:52 Generation completed!
-
-For this generation to compile you need to have some packages in your GOPATH:
-
-	* github.com/go-openapi/runtime
-	* golang.org/x/net/context/ctxhttp
-
-You can get these now with: go get -u -f ./...
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/aws/plugin.go:52: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/azure/plugin.go:25: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/common/transformation/base_plugin.go:26: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/lyft/protoc-gen-validate/: warning: directory does not exist.
-validate/validate.proto: File not found.
-gogoproto/gogo.proto: File not found.
-consul_connect.proto: Import "validate/validate.proto" was not found or had errors.
-consul_connect.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/connect/plugin.go:35: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/consul/plugin.go:23: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/google/plugin.go:25: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-service_properties.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/grpc/plugin.go:31: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/knative/plugin.go:39: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/kubernetes/plugin.go:18: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-service_properties.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/nats/plugin.go:20: running "protoc": exit status 1
-/usr/local/go/src/github.com/gogo/protobuf/: warning: directory does not exist.
-/usr/local/go/src/github.com/gogo/protobuf/protobuf/: warning: directory does not exist.
-gogoproto/gogo.proto: File not found.
-spec.proto: Import "gogoproto/gogo.proto" was not found or had errors.
-pkg/plugins/rest/plugin.go:20: running "protoc": exit status 1
-stat /home/denglish/go:/usr/local/go/src/github.com/solo-io/gloo/pkg/storage/generate/generate_clients.go: no such file or directory
-pkg/storage/consul/consul_storage_client.go:12: running "go": exit status 1
-stat /home/denglish/go:/usr/local/go/src/github.com/solo-io/gloo/pkg/storage/generate/generate_clients.go: no such file or directory
-pkg/storage/crd/crd_storage_client.go:21: running "go": exit status 1
-stat /home/denglish/go:/usr/local/go/src/github.com/solo-io/gloo/pkg/storage/generate/generate_clients.go: no such file or directory
-pkg/storage/file/file_storage_client.go:11: running "go": exit status 1
-Makefile:55: recipe for target '/home/denglish/go/src/github.com/solo-io/gloo/_output/.generated-code' failed
-make: *** [/home/denglish/go/src/github.com/solo-io/gloo/_output/.generated-code] Error 1
+++ go build -o gloo cmd/localgloo/main.go
+pkg/plugins/cloudfoundry/common.go:10:2: cannot find package "code.cloudfoundry.org/copilot" in any of:
+	/usr/local/go/src/code.cloudfoundry.org/copilot (from $GOROOT)
+	/home/denglish/go/src/code.cloudfoundry.org/copilot (from $GOPATH)
+pkg/plugins/cloudfoundry/common.go:11:2: cannot find package "code.cloudfoundry.org/copilot/api" in any of:
+	/usr/local/go/src/code.cloudfoundry.org/copilot/api (from $GOROOT)
+	/home/denglish/go/src/code.cloudfoundry.org/copilot/api (from $GOPATH)
+pkg/function-discovery/updater/lambda/get_lambda_funcs.go:6:2: cannot find package "github.com/aws/aws-sdk-go/aws" in any of:
+	/usr/local/go/src/github.com/aws/aws-sdk-go/aws (from $GOROOT)
+	/home/denglish/go/src/github.com/aws/aws-sdk-go/aws (from $GOPATH)
+pkg/function-discovery/updater/lambda/get_lambda_funcs.go:7:2: cannot find package "github.com/aws/aws-sdk-go/aws/credentials" in any of:
+	/usr/local/go/src/github.com/aws/aws-sdk-go/aws/credentials (from $GOROOT)
+	/home/denglish/go/src/github.com/aws/aws-sdk-go/aws/credentials (from $GOPATH)
+pkg/function-discovery/updater/lambda/get_lambda_funcs.go:8:2: cannot find package "github.com/aws/aws-sdk-go/aws/session" in any of:
+	/usr/local/go/src/github.com/aws/aws-sdk-go/aws/session (from $GOROOT)
+	/home/denglish/go/src/github.com/aws/aws-sdk-go/aws/session (from $GOPATH)
+pkg/function-discovery/updater/lambda/get_lambda_funcs.go:9:2: cannot find package "github.com/aws/aws-sdk-go/service/lambda" in any of:
+	/usr/local/go/src/github.com/aws/aws-sdk-go/service/lambda (from $GOROOT)
+	/home/denglish/go/src/github.com/aws/aws-sdk-go/service/lambda (from $GOPATH)
+pkg/function-discovery/updater/azure/azure_public_profile.go:8:2: cannot find package "github.com/basgys/goxml2json" in any of:
+	/usr/local/go/src/github.com/basgys/goxml2json (from $GOROOT)
+	/home/denglish/go/src/github.com/basgys/goxml2json (from $GOPATH)
+pkg/storage/dependencies/vault/secrets.go:10:2: cannot find package "github.com/d4l3k/messagediff" in any of:
+	/usr/local/go/src/github.com/d4l3k/messagediff (from $GOROOT)
+	/home/denglish/go/src/github.com/d4l3k/messagediff (from $GOPATH)
+pkg/plugins/interface.go:4:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/api/v2" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2 (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2 (from $GOPATH)
+pkg/control-plane/translator/listener.go:7:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/api/v2/auth" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/auth (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/auth (from $GOPATH)
+pkg/control-plane/translator/clusters.go:5:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/api/v2/core" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/core (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/core (from $GOPATH)
+pkg/control-plane/translator/endpoints.go:6:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint (from $GOPATH)
+pkg/plugins/interface.go:5:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/api/v2/listener" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/listener (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/listener (from $GOPATH)
+pkg/plugins/interface.go:6:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/api/v2/route" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/route (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/api/v2/route (from $GOPATH)
+pkg/plugins/grpc/plugin.go:11:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/config/filter/http/transcoder/v2" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/config/filter/http/transcoder/v2 (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/config/filter/http/transcoder/v2 (from $GOPATH)
+pkg/plugins/interface.go:7:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/config/filter/network/http_connection_manager/v2" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/config/filter/network/http_connection_manager/v2 (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/config/filter/network/http_connection_manager/v2 (from $GOPATH)
+pkg/plugins/connect/plugin.go:11:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/config/filter/network/tcp_proxy/v2" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/config/filter/network/tcp_proxy/v2 (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/config/filter/network/tcp_proxy/v2 (from $GOPATH)
+pkg/control-plane/xds/xds.go:11:2: cannot find package "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2 (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2 (from $GOPATH)
+pkg/control-plane/eventloop/eventloop.go:6:2: cannot find package "github.com/envoyproxy/go-control-plane/pkg/cache" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/pkg/cache (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/pkg/cache (from $GOPATH)
+pkg/plugins/interface.go:8:2: cannot find package "github.com/envoyproxy/go-control-plane/pkg/server" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/pkg/server (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/pkg/server (from $GOPATH)
+pkg/control-plane/translator/http_filters.go:9:2: cannot find package "github.com/envoyproxy/go-control-plane/pkg/util" in any of:
+	/usr/local/go/src/github.com/envoyproxy/go-control-plane/pkg/util (from $GOROOT)
+	/home/denglish/go/src/github.com/envoyproxy/go-control-plane/pkg/util (from $GOPATH)
+pkg/storage/file/file_io.go:6:2: cannot find package "github.com/ghodss/yaml" in any of:
+	/usr/local/go/src/github.com/ghodss/yaml (from $GOROOT)
+	/home/denglish/go/src/github.com/ghodss/yaml (from $GOPATH)
+../../go-openapi/runtime/middleware/context.go:23:2: cannot find package "github.com/go-openapi/analysis" in any of:
+	/usr/local/go/src/github.com/go-openapi/analysis (from $GOROOT)
+	/home/denglish/go/src/github.com/go-openapi/analysis (from $GOPATH)
+../../go-openapi/runtime/middleware/context.go:25:2: cannot find package "github.com/go-openapi/loads" in any of:
+	/usr/local/go/src/github.com/go-openapi/loads (from $GOROOT)
+	/home/denglish/go/src/github.com/go-openapi/loads (from $GOPATH)
+../../go-openapi/runtime/middleware/untyped/api.go:27:2: cannot find package "github.com/go-openapi/spec" in any of:
+	/usr/local/go/src/github.com/go-openapi/spec (from $GOROOT)
+	/home/denglish/go/src/github.com/go-openapi/spec (from $GOPATH)
+../../go-openapi/runtime/middleware/parameter.go:31:2: cannot find package "github.com/go-openapi/validate" in any of:
+	/usr/local/go/src/github.com/go-openapi/validate (from $GOROOT)
+	/home/denglish/go/src/github.com/go-openapi/validate (from $GOPATH)
+pkg/plugins/grpc/plugin.go:13:2: cannot find package "github.com/gogo/googleapis/google/api" in any of:
+	/usr/local/go/src/github.com/gogo/googleapis/google/api (from $GOROOT)
+	/home/denglish/go/src/github.com/gogo/googleapis/google/api (from $GOPATH)
+../../../k8s.io/apimachinery/pkg/labels/selector.go:26:2: cannot find package "github.com/golang/glog" in any of:
+	/home/denglish/go/src/k8s.io/apimachinery/vendor/github.com/golang/glog (vendor tree)
+	/usr/local/go/src/github.com/golang/glog (from $GOROOT)
+	/home/denglish/go/src/github.com/golang/glog (from $GOPATH)
+../../../k8s.io/apimachinery/pkg/apis/meta/v1/micro_time.go:23:2: cannot find package "github.com/google/gofuzz" in any of:
+	/home/denglish/go/src/k8s.io/apimachinery/vendor/github.com/google/gofuzz (vendor tree)
+	/usr/local/go/src/github.com/google/gofuzz (from $GOROOT)
+	/home/denglish/go/src/github.com/google/gofuzz (from $GOPATH)
+pkg/control-plane/xds/xds.go:14:2: cannot find package "github.com/grpc-ecosystem/go-grpc-middleware" in any of:
+	/usr/local/go/src/github.com/grpc-ecosystem/go-grpc-middleware (from $GOROOT)
+	/home/denglish/go/src/github.com/grpc-ecosystem/go-grpc-middleware (from $GOPATH)
+pkg/control-plane/xds/xds.go:15:2: cannot find package "github.com/grpc-ecosystem/go-grpc-middleware/logging/zap" in any of:
+	/usr/local/go/src/github.com/grpc-ecosystem/go-grpc-middleware/logging/zap (from $GOROOT)
+	/home/denglish/go/src/github.com/grpc-ecosystem/go-grpc-middleware/logging/zap (from $GOPATH)
+pkg/control-plane/xds/xds.go:16:2: cannot find package "github.com/grpc-ecosystem/go-grpc-middleware/tags" in any of:
+	/usr/local/go/src/github.com/grpc-ecosystem/go-grpc-middleware/tags (from $GOROOT)
+	/home/denglish/go/src/github.com/grpc-ecosystem/go-grpc-middleware/tags (from $GOPATH)
+pkg/bootstrap/options.go:6:2: cannot find package "github.com/hashicorp/consul/api" in any of:
+	/usr/local/go/src/github.com/hashicorp/consul/api (from $GOROOT)
+	/home/denglish/go/src/github.com/hashicorp/consul/api (from $GOPATH)
+pkg/control-plane/translator/http_filters.go:10:2: cannot find package "github.com/hashicorp/go-multierror" in any of:
+	/usr/local/go/src/github.com/hashicorp/go-multierror (from $GOROOT)
+	/home/denglish/go/src/github.com/hashicorp/go-multierror (from $GOPATH)
+pkg/bootstrap/secretstorage/bootstrap.go:8:2: cannot find package "github.com/hashicorp/vault/api" in any of:
+	/usr/local/go/src/github.com/hashicorp/vault/api (from $GOROOT)
+	/home/denglish/go/src/github.com/hashicorp/vault/api (from $GOPATH)
+pkg/function-discovery/grpc/discover_grpc.go:12:2: cannot find package "github.com/jhump/protoreflect/desc" in any of:
+	/usr/local/go/src/github.com/jhump/protoreflect/desc (from $GOROOT)
+	/home/denglish/go/src/github.com/jhump/protoreflect/desc (from $GOPATH)
+pkg/function-discovery/grpc/discover_grpc.go:13:2: cannot find package "github.com/jhump/protoreflect/grpcreflect" in any of:
+	/usr/local/go/src/github.com/jhump/protoreflect/grpcreflect (from $GOROOT)
+	/home/denglish/go/src/github.com/jhump/protoreflect/grpcreflect (from $GOPATH)
+pkg/log/log.go:11:2: cannot find package "github.com/k0kubun/pp" in any of:
+	/usr/local/go/src/github.com/k0kubun/pp (from $GOROOT)
+	/home/denglish/go/src/github.com/k0kubun/pp (from $GOPATH)
+pkg/upstream-discovery/knative/knative_upstream_controller.go:7:2: cannot find package "github.com/knative/serving/pkg/client/clientset/versioned" in any of:
+	/usr/local/go/src/github.com/knative/serving/pkg/client/clientset/versioned (from $GOROOT)
+	/home/denglish/go/src/github.com/knative/serving/pkg/client/clientset/versioned (from $GOPATH)
+pkg/upstream-discovery/knative/knative_upstream_controller.go:8:2: cannot find package "github.com/knative/serving/pkg/client/informers/externalversions" in any of:
+	/usr/local/go/src/github.com/knative/serving/pkg/client/informers/externalversions (from $GOROOT)
+	/home/denglish/go/src/github.com/knative/serving/pkg/client/informers/externalversions (from $GOPATH)
+pkg/upstream-discovery/knative/knative_upstream_controller.go:9:2: cannot find package "github.com/knative/serving/pkg/client/informers/externalversions/serving/v1alpha1" in any of:
+	/usr/local/go/src/github.com/knative/serving/pkg/client/informers/externalversions/serving/v1alpha1 (from $GOROOT)
+	/home/denglish/go/src/github.com/knative/serving/pkg/client/informers/externalversions/serving/v1alpha1 (from $GOPATH)
+pkg/upstream-discovery/knative/knative_upstream_controller.go:16:2: cannot find package "github.com/knative/serving/pkg/controller" in any of:
+	/usr/local/go/src/github.com/knative/serving/pkg/controller (from $GOROOT)
+	/home/denglish/go/src/github.com/knative/serving/pkg/controller (from $GOPATH)
+pkg/control-plane/snapshot/cache.go:5:2: cannot find package "github.com/mitchellh/hashstructure" in any of:
+	/usr/local/go/src/github.com/mitchellh/hashstructure (from $GOROOT)
+	/home/denglish/go/src/github.com/mitchellh/hashstructure (from $GOPATH)
+pkg/function-discovery/nats-streaming/discover_nats.go:4:2: cannot find package "github.com/nats-io/go-nats-streaming" in any of:
+	/usr/local/go/src/github.com/nats-io/go-nats-streaming (from $GOROOT)
+	/home/denglish/go/src/github.com/nats-io/go-nats-streaming (from $GOPATH)
+pkg/storage/file/attributes.go:11:2: cannot find package "github.com/radovskyb/watcher" in any of:
+	/usr/local/go/src/github.com/radovskyb/watcher (from $GOROOT)
+	/home/denglish/go/src/github.com/radovskyb/watcher (from $GOPATH)
+pkg/plugins/kubernetes/endpoint_controller.go:21:2: cannot find package "github.com/solo-io/kubecontroller" in any of:
+	/usr/local/go/src/github.com/solo-io/kubecontroller (from $GOROOT)
+	/home/denglish/go/src/github.com/solo-io/kubecontroller (from $GOPATH)
+pkg/bootstrap/flags/consul_flags.go:5:2: cannot find package "github.com/spf13/cobra" in any of:
+	/usr/local/go/src/github.com/spf13/cobra (from $GOROOT)
+	/home/denglish/go/src/github.com/spf13/cobra (from $GOPATH)
+pkg/control-plane/xds/xds.go:18:2: cannot find package "go.uber.org/zap" in any of:
+	/usr/local/go/src/go.uber.org/zap (from $GOROOT)
+	/home/denglish/go/src/go.uber.org/zap (from $GOPATH)
+pkg/function-discovery/updater/gcf/get_google_funcs.go:10:2: cannot find package "golang.org/x/oauth2" in any of:
+	/usr/local/go/src/golang.org/x/oauth2 (from $GOROOT)
+	/home/denglish/go/src/golang.org/x/oauth2 (from $GOPATH)
+pkg/function-discovery/updater/gcf/get_google_funcs.go:11:2: cannot find package "golang.org/x/oauth2/google" in any of:
+	/usr/local/go/src/golang.org/x/oauth2/google (from $GOROOT)
+	/home/denglish/go/src/golang.org/x/oauth2/google (from $GOPATH)
+pkg/function-discovery/updater/gcf/get_google_funcs.go:12:2: cannot find package "google.golang.org/api/cloudfunctions/v1beta2" in any of:
+	/usr/local/go/src/google.golang.org/api/cloudfunctions/v1beta2 (from $GOROOT)
+	/home/denglish/go/src/google.golang.org/api/cloudfunctions/v1beta2 (from $GOPATH)
+pkg/control-plane/xds/xds.go:19:2: cannot find package "google.golang.org/grpc" in any of:
+	/usr/local/go/src/google.golang.org/grpc (from $GOROOT)
+	/home/denglish/go/src/google.golang.org/grpc (from $GOPATH)
+pkg/function-discovery/grpc/discover_grpc.go:23:2: cannot find package "google.golang.org/grpc/reflection/grpc_reflection_v1alpha" in any of:
+	/usr/local/go/src/google.golang.org/grpc/reflection/grpc_reflection_v1alpha (from $GOROOT)
+	/home/denglish/go/src/google.golang.org/grpc/reflection/grpc_reflection_v1alpha (from $GOPATH)
+pkg/storage/crd/crd_storage_client.go:7:2: cannot find package "k8s.io/api/core/v1" in any of:
+	/usr/local/go/src/k8s.io/api/core/v1 (from $GOROOT)
+	/home/denglish/go/src/k8s.io/api/core/v1 (from $GOPATH)
+pkg/storage/crd/crd_storage_client.go:8:2: cannot find package "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1" in any of:
+	/usr/local/go/src/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1 (from $GOROOT)
+	/home/denglish/go/src/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1 (from $GOPATH)
+pkg/storage/crd/attributes.go:11:2: cannot find package "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset" in any of:
+	/usr/local/go/src/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset (from $GOROOT)
+	/home/denglish/go/src/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset (from $GOPATH)
+pkg/storage/crd/client/clientset/versioned/clientset.go:23:2: cannot find package "k8s.io/client-go/discovery" in any of:
+	/usr/local/go/src/k8s.io/client-go/discovery (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/discovery (from $GOPATH)
+pkg/plugins/kubernetes/endpoint_controller.go:12:2: cannot find package "k8s.io/client-go/informers" in any of:
+	/usr/local/go/src/k8s.io/client-go/informers (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/informers (from $GOPATH)
+pkg/storage/crd/crd_storage_client.go:12:2: cannot find package "k8s.io/client-go/kubernetes" in any of:
+	/usr/local/go/src/k8s.io/client-go/kubernetes (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/kubernetes (from $GOPATH)
+pkg/function-discovery/updater/fission/imported/client.go:34:2: cannot find package "k8s.io/client-go/kubernetes/scheme" in any of:
+	/usr/local/go/src/k8s.io/client-go/kubernetes/scheme (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/kubernetes/scheme (from $GOPATH)
+pkg/plugins/kubernetes/endpoint_controller.go:14:2: cannot find package "k8s.io/client-go/listers/core/v1" in any of:
+	/usr/local/go/src/k8s.io/client-go/listers/core/v1 (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/listers/core/v1 (from $GOPATH)
+pkg/bootstrap/flags/kube_flags.go:9:2: cannot find package "k8s.io/client-go/plugin/pkg/client/auth" in any of:
+	/usr/local/go/src/k8s.io/client-go/plugin/pkg/client/auth (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/plugin/pkg/client/auth (from $GOPATH)
+pkg/storage/crd/client/clientset/versioned/typed/solo.io/v1/attribute.go:27:2: cannot find package "k8s.io/client-go/rest" in any of:
+	/usr/local/go/src/k8s.io/client-go/rest (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/rest (from $GOPATH)
+pkg/storage/crd/attributes.go:18:2: cannot find package "k8s.io/client-go/tools/cache" in any of:
+	/usr/local/go/src/k8s.io/client-go/tools/cache (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/tools/cache (from $GOPATH)
+pkg/utils/kube/config.go:7:2: cannot find package "k8s.io/client-go/tools/clientcmd" in any of:
+	/usr/local/go/src/k8s.io/client-go/tools/clientcmd (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/tools/clientcmd (from $GOPATH)
+pkg/utils/kube/config.go:8:2: cannot find package "k8s.io/client-go/tools/clientcmd/api" in any of:
+	/usr/local/go/src/k8s.io/client-go/tools/clientcmd/api (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/tools/clientcmd/api (from $GOPATH)
+pkg/storage/crd/client/clientset/versioned/clientset.go:25:2: cannot find package "k8s.io/client-go/util/flowcontrol" in any of:
+	/usr/local/go/src/k8s.io/client-go/util/flowcontrol (from $GOROOT)
+	/home/denglish/go/src/k8s.io/client-go/util/flowcontrol (from $GOPATH)

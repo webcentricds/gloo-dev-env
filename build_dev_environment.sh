@@ -78,8 +78,8 @@ echo "+-----------------------------------------------------------------------"
 echo "| GOPATH : $GOPATH"
 echo "+-----------------------------------------------------------------------"
 set -x
-make localgloo
-#go build -o gloo cmd/localgloo/main.go
+#make localgloo
+go build -o gloo cmd/localgloo/main.go
 popd
 popd
 
